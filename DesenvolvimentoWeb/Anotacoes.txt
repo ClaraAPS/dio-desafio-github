@@ -1,0 +1,32 @@
+Primeiros passos para desenvolvimento web
+
+HTML - é uma linguagem de marcação da internet, não é uma linguagem de programação. Ela não tem por exemplo funções.
+
+HTTP - é um protocolo usado pela internet
+
+link VS URL - link é uma ligação no texto e o URL é um endereço de uma chamada de video por exemplo
+
+keylogger - tipo de virus que capta tudo que você escreve no teclado 
+
+firewall - impedir acesso indevido na maquina, há muitas falhas
+
+P2P (peer to peer) - comunicação direta entre 2 dispositivos sem precisar de internet
+
+DNS - transforma o www em um número que é o IP
+
+127.0.0.1 - local host, endereço do seu computador
+
+Portas
+20: FTP
+22: SSH
+25: SMTP
+53: DNS
+80: HTTP
+443: HTTPS
+
+Página estática - pagina sem muita interação com o usuário, continha apenas alguns botões
+
+Página dinâmica - pagina com muita interação com o usuário: login, barra de rolagem, upload, compartilhar...
+
+link - www.code.jquery.com - biblioteca
+w2chools - aprender linguagens de programação
