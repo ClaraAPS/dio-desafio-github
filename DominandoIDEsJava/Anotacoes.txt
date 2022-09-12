@@ -1,0 +1,16 @@
+Baixar open jdk zulu
+extrair na pasta java em arvivos de programas
+
+certifique no cmd se o git e o java estão instalados: git --version e java --version
+
+Para compilar java sem IDE
+abrir cmd
+ir para o diretorio onde está o script do java
+javac *nome do arquivo.java* para compilar
+java *nome do arquivo* para rodar
+
+Instalação do eclipse
+Baixe o eclipse: eclipse.org
+
+Instalação do Intelij
+Baixe: https://www.jetbrains.com/pt-br/idea/download/#section=windows
