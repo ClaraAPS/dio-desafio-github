@@ -1,0 +1,8 @@
+Baixe o Git: https://git-scm.com/download/win para windows
+O Git Bash é um terminal extendido para otimizar o uso do Git
+
+git add .  para adicionar a versão no controle local
+
+git commit -m "mensagem" para comitar a atualização
+
+git push para enviar as atualizações para o github
