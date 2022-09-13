@@ -1,0 +1,37 @@
+Instalar Mysql
+Instalar PostgreSQL
+
+Comandos básicos do MySQL (é uma convenção escrever os comandos em letra maiúscula)
+
+No cmd do windows:
+
+sudo mysql
+
+create database RegistroDePublicacoes - cria um banco de dados
+
+use RegistroDePuplicacoes - entra dentro do banco de dados especificado
+
+show tables - mostra as tabelas
+
+drop database - deleta o banco de dados
+
+create table periodicos( - cria a tabela e o conteúdo
+	id int auto_increment primary key,
+	nome_periodico varchar(20),
+	issn int, 
+	id_editora int
+	);
+create table editora(
+	id integer auto_increment,
+	nome_editora varchar(120),
+	pais varchar(5),
+	primary key(id),
+	);
+alter table periodicos add constraint fk_editora_periodico foreing key(id_editora) references editora(id);
+
+insert into editora (nome_editora_, pais) values ('ieee', 'EUA'), ('DataScienceMagazine','EUA'); - inserir informações na tabela
+
+select * form editora; - ver a tabela
+
+insert into pediodicos(nome_periodco, issn, id_editora) values ('Special Issue','123456789','1');
+
