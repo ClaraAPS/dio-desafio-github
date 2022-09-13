@@ -1,0 +1,63 @@
+Semântica
+
+<section> uma sessão do seu documento
+
+<header> um cabeçalho que pode estar dentro do cabeçalho
+
+<article> parte do texto importante do documento
+
+<aside> conteudo relacionado ao conteudo principal da página, normalmente uma barra lateral
+
+<footer> rodapé
+
+<h1>-<h6>
+
+<p></p>
+
+<a>Link</a> âncora, interliga as coisas no site
+
+<img> sem teg de fechamento e tem apenas 2 elementos proprios o SRC que guarda o caminho da imagem, elemento obrigatório. E o elemento ALT que guarda a descrição da imagem
+
+Listas:
+
+<ul> ordem dos itens não é importante
+
+<ol> ordem dos itens é importante
+
+<li> um item da lista
+
+Seletores:
+
+Seletores são elementos html
+{declarações formada por uma propriedade e um valor}
+
+ID x Classe
+
+<header id="header" class="header"></header>
+
+<header class="header"></header>
+
+No CSS uma class é precedida por um .
+um id é precedido por um #
+
+um id só pode ser usado uma vez na página
+
+Box model - margem, borda, padding, conteúdo (nesta ordem)
+
+Ordem dos valores do padding - superior, direita, inferior, esquerda
+
+Borda pode ter 3 valores, largura cor e estilo
+
+font-family - web save fonts (fontes encontradas em todos os dispositivos)
+
+font-size
+
+font-style
+
+list-style-type - altera o simbolo do marcador das listas
+
+Dimensão e alinhamento:
+width and height
+max-width and max-height
+margin
+text align
